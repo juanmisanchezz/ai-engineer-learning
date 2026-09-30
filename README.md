@@ -5,13 +5,15 @@ Exercises and projects from my AI Engineering studies (started September 2026). 
 | # | Module | Content | Status |
 |---|--------|---------|--------|
 | 01 | [Python basics](01-python-basics/) | Variables and data types, functions, classes, general review (Jupyter notebooks) | ✅ Done |
-| 02 | Next module | — | ⏳ Coming soon |
+| 02 | [Model selection](02-model-selection/) | Project 1: choosing an LLM for an online tea shop chatbot. 3 models tested on OpenRouter (PDF report) | ✅ Done |
+| 03 | Next project | — | ⏳ Coming soon |
 
 ## Structure
 
 ```
 ai-engineer-learning/
 ├── 01-python-basics/     # one notebook per topic
+├── 02-model-selection/   # project 1: LLM selection report (PDF)
 ├── _template/            # README template for every new project
 └── README.md             # this index
 ```
