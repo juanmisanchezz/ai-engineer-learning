@@ -6,7 +6,8 @@ Exercises and projects from my AI Engineering studies (started September 2026). 
 |---|--------|---------|--------|
 | 01 | [Python basics](01-python-basics/) | Variables and data types, functions, classes, general review (Jupyter notebooks) | ✅ Done |
 | 02 | [Model selection](02-model-selection/) | Project 1: choosing an LLM for an online tea shop chatbot. 3 models tested on OpenRouter (PDF report) | ✅ Done |
-| 03 | Next project | — | ⏳ Coming soon |
+| 03 | [Prompt engineering](03-prompt-engineering/) | Project 2: production system prompt with XML, few shot and security rules, tested against prompt injection (PDF report) | ✅ Done |
+| 04 | Next project | — | ⏳ Coming soon |
 
 ## Structure
 
@@ -14,6 +15,7 @@ Exercises and projects from my AI Engineering studies (started September 2026). 
 ai-engineer-learning/
 ├── 01-python-basics/     # one notebook per topic
 ├── 02-model-selection/   # project 1: LLM selection report (PDF)
+├── 03-prompt-engineering/ # project 2: prompt engineering + prompt injection (PDF)
 ├── _template/            # README template for every new project
 └── README.md             # this index
 ```
