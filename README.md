@@ -10,6 +10,7 @@ Exercises and projects from my AI Engineering studies (started September 2026). 
 | 04 | [Architecture](04-architecture/) | Project 3: layered architecture (Presentation, Application, Domain, Infrastructure) for the tea shop chatbot, with folder structure and design decisions | ✅ Done |
 | 05 | [LangChain](05-langchain/) | Project 4: terminal chat with LCEL that summarises texts in 3 bullet points, with a tool (`leer_texto`) and memory per `session_id`. Runs locally with Ollama + llama3.1 | ✅ Done |
 | 06 | [LangGraph](https://github.com/juanmisanchezz/asistente-hotel-langgraph) | Project 5: hotel front-desk assistant built with LangGraph. Decides between answering or using 2 read-only tools, persistent memory per `thread_id` (SQLite), max. 2 tool calls per turn, controlled failures and offline tests. Own repository | ✅ Done |
+| 07 | [Observability](https://github.com/juanmisanchezz/asistente-hotel-observabilidad) | Project 6: the project 5 assistant traced in Langfuse and LangSmith at the same time, two prompt versions stored in both platforms, v1 vs v2 compared on 10 held-out questions (tokens, latency, cost), a forced tool failure and delay located in the traces, and email/secret masking. Own repository | ✅ Done |
 | 07 | Next project | — | ⏳ Coming soon |
 
 ## Structure
