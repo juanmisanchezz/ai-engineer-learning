@@ -15,7 +15,8 @@ Exercises and projects from my AI Engineering studies (started September 2026). 
 | 09 | [Closed-source models](https://github.com/juanmisanchezz/clasificador-hotel-gemini-claude) | Project 8: the same hotel incident classifier with closed models. Real fine-tuning of Gemini 3.1 Flash-Lite on Google Cloud (2 epochs, €0.42 checked on the bill) compared with Claude Haiku 4.5 and the three Qwen setups on the same 30 test cases, with latency, tokens and cost per 1,000 messages: Gemini base 26, tuned 27, Claude 23 out of 30. Own repository | ✅ Done |
 | 10 | [Vector databases](https://github.com/juanmisanchezz/buscador-frases-pgvector) | Project 9: semantic search over short sentences from two hotels stored in PostgreSQL with pgvector (Neon). Local multilingual embeddings (384 dimensions), cosine distance with an HNSW index and every query filtered by `tenant_id`, so one hotel never sees the other's data. Own repository | ✅ Done |
 | 11 | [RAG](https://github.com/juanmisanchezz/rag-hotel) | Project 10: minimal RAG over 3 documents of a fictional hotel. Chunking with LangChain, chunks and embeddings stored in pgvector, top 3 retrieved by cosine distance and passed to llama3.1 running locally with Ollama. Answers only from the documents and says "No lo sé." when the answer is not there. Own repository | ✅ Done |
-| 12 | Next project | — | ⏳ Coming soon |
+| 12 | [Advanced RAG](https://github.com/juanmisanchezz/rag-hotel-reranker) | Project 11: the hotel RAG from project 10 with one improvement, a cross-encoder reranker (bge-reranker-v2-m3) that reorders the pgvector candidates. Same question before and after: pgvector alone picks the wrong chunk and answers "No lo sé."; with the reranker it picks the right one and answers correctly. Measured with RAGAS faithfulness, using llama3.1 as a local judge: 0.0 → 1.0. Own repository | ✅ Done |
+| 13 | Next project | — | ⏳ Coming soon |
 
 ## Structure
 
